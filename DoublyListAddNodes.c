@@ -1,5 +1,5 @@
 /*
-Q. 1. Lab Question: Write a program to insert a node into doubly linked list at front, before a node, after a node, and last.
+Question: Write a program to insert a node into doubly linked list at front, before a node, after a node, and last.
 */
 
 //My Approach/Solution:
