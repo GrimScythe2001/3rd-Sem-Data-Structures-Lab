@@ -6,7 +6,7 @@ Program Overview: a. The size m*n of the matrix is defined.
                   d. Both the normal matrices along with their sparse matrices are displayed on-screen, simultaneously.
 */
 
-/*My Approach/Solution:
+//My Approach/Solution:
 #include <stdio.h>
 
 void EnterValueInMatrix (int mat['!']['!'], int row, int col, int sparse[3]['!'], int *k);
