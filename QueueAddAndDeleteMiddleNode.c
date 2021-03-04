@@ -1,5 +1,5 @@
 /*
-Q. 1. Lab Question: Write a program in C to insert and delete a middle element of a queue.
+Question: Write a program in C to insert and delete a middle element of a queue.
 */
 
 //My Approach/Solution:
