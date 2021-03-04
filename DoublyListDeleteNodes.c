@@ -1,5 +1,5 @@
 /*
-Q. 2. Lab Question: Write a program to delete an item from a doubly linked list based on location provided by the user.
+Question: Write a program to delete an item from a doubly linked list based on location provided by the user.
 */
 
 //My Approach/Solution:
