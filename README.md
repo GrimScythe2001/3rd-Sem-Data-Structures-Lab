@@ -1,6 +1,6 @@
 # Work Details
 
-Subject: Data Structures
+Subject: Data Structures Laboratory
 
 Year: 2020
 
