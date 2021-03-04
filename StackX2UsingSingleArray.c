@@ -1,5 +1,5 @@
 /*
-Q. 1. Lab Question: Write a program in C to implement two stacks in an array.
+Question: Write a program in C to implement two stacks in an array.
 */
 
 //My Approach/Solution:
