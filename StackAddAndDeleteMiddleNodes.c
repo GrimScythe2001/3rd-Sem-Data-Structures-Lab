@@ -1,5 +1,5 @@
 /*
-Q. 1. Lab Question: Write a program in C to insert and delete a middle element of a stack.
+Question: Write a program in C to insert and delete a middle element of a stack.
 */
 
 //My Approach/Solution:
