@@ -1,5 +1,5 @@
-*/
-Q. 3. Lab Question: Write a C program to insert new nodes into circular linked list (i.e., firstly create a circular linked list) and also delete a node based on the location provided by the user.
+/*
+Question: Write a C program to insert new nodes into circular linked list (i.e., firstly create a circular linked list) and also delete a node based on the location provided by the user.
 */
 
 //My Approach/Solution:
