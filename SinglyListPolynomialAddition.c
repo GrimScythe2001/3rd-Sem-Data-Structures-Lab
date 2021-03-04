@@ -1,5 +1,5 @@
 /*
-Question: Write a program to add two polynomial equations using singly linked list.
+Question: Write a C program to add two polynomial equations using singly linked list.
 */
 
 //My Approach/Solution:
