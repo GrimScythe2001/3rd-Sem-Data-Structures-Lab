@@ -1,11 +1,11 @@
 /*
-Question: Write a C program to convert two user-defined m*n matrices into sparse matrices and perform addition operation on them. Also, transpose one of the matrices.
+Question: Write a C program to convert two user-defined m*n matrices into sparse matrices and perform addition operation on them. Also, transpose the added matrices.
 Program Overview: a. The size of the matrix is defined.
                   b. The elements are entered in the matrices.
                   c. While the user-input elemets are being inserted into the matrices, their sparse form is being created parallely.
                   d. The sparse form of both the matrices are displayed on-screen.
                   e. The matrices are added in their sparse form and displayed on-screen in sparse-form only.
-                  f. The first matrix is transposed in its sparse form and displayed on-screen in sparse-form only.
+                  f. The added matrix is transposed in its sparse form and displayed on-screen in sparse-form only.
 */
 
 //My Approach/Program
@@ -76,7 +76,6 @@ int main()
             printf("\n");
         }
         printf ("### ADDITION ###\n"); AddMat(matA, matB, k, l);
-        printf ("### TRANSPOSE of matrix A ###\n"); TranMat (matA, k);
         return 0;
     
 }
@@ -155,17 +154,19 @@ void AddMat(int matA[3][100], int matB[3][100], int k, int l)
         }
         printf("\n");
     }
+
+    printf ("### TRANSPOSE of added matrix ###\n"); TranMat (sparse, x);
 }
 
-void TranMat (int matA[3][100], int k)
+void TranMat (int mat[3][100], int k)
 {
 	int temp, i, j;
     int transpose [3][k];
     for (j = 0; j < k; j++)
         {
-            transpose [0][j] = matB [1][j];
-            transpose [1][j] = matB [0][j];
-            transpose [2][j] = matB [2][j];
+            transpose [0][j] = mat [1][j];
+            transpose [1][j] = mat [0][j];
+            transpose [2][j] = mat [2][j];
         }
      for (i = 0; i < 3; i++)
      {        
