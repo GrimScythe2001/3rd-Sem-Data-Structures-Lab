@@ -42,7 +42,7 @@ int main()
     
     BuildHeap (arr, size);
 
-    printf ("\nThe array representation of your Max Heap is: ");
+    printf ("\nThe array representation of your Min Heap is: ");
     for (int i=0; i<size; ++i)
         printf ("%d ", arr[i]);
 
