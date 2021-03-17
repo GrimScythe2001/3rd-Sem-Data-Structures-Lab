@@ -19,9 +19,9 @@ void PUSH ()
     printf ("Enter Value to be added: ");
     scanf ("%d", &num);
     temp->value = num;
+    temp->next=NULL;
     if (front == NULL)
     {
-        temp->next = NULL;
         front = temp;
     }
     else
@@ -60,12 +60,12 @@ void TRAVERSE ()
     else
     {
         printf ("Values are: ");
-        while (temp != rear)
+        while (temp)
         {
-            printf (" %d ",temp -> value);
+            printf ("%d ",temp -> value);
             temp = temp->next;
         }
-        printf ("%d\n", temp -> value);
+        printf ("\n");
     }
 }
 
